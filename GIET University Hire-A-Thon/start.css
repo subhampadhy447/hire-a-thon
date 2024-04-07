@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 5%, 84%); 
+}
+
+.container {
+    text-align: center;
+}
+
+.start-button {
+    height: 100px;
+    width: 400px;
+    padding: 20px 40px; 
+    font-size: 50px; 
+    text-decoration: none; 
+    display: inline-block; 
+    background-color: #325fff; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.start-button:hover {
+    background-color: #0400ff; 
+}
